@@ -15,8 +15,8 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
-            MYSELF
+            FEW <span className={s.purple}> WORDS </span>{' '}
+            ABOUT MYSELF
           </h1>
 
           <div className={s.description}>
@@ -36,16 +36,16 @@ const IntroSection = () => {
             </p>
 
             <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
+              As passionate Full Stack Software Developer 🚀 <br />I
               have an experience of building{' '}
               <i>
-                <b className={s.purple}>Web and Mobile</b>
+                <b className={s.purple}>Web</b>
               </i>{' '}
               applications with
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                  JavaScript, ReactJs, Ruby on Rails, PostgreSQL
                 </b>
               </i>{' '}
               and some other cool libraries
@@ -59,15 +59,14 @@ const IntroSection = () => {
       </div>
 
       <div className={s.introSocial}>
-        <h1>FIND ME ON</h1>
+        <h1>MY SOCIAL LINKS</h1>
         <p>
-          Feel free to <span className={s.purple}>connect </span>with
-          me
+          <span className={s.purple}>Connect </span>with me
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/LyuboDias"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -77,17 +76,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaFacebookSquare />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://t.me/snaichuk_v"
+              href="https://t.me/lyubo_dias"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -97,7 +86,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/lyubomir-dias/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

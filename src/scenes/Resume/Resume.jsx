@@ -16,6 +16,7 @@ const resumeLink =
 const Resume = () => {
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
+
   useEffect(() => {
     setPdfPageWidth(
       pdfWrapper.current?.getBoundingClientRect().width || null,
@@ -46,7 +47,7 @@ const Resume = () => {
             <FilesIcon />
           </div>
         </div>
-
+{/* 
         <Button
           style={{ margin: 'auto', width: '15rem' }}
           className="primary"
@@ -56,9 +57,9 @@ const Resume = () => {
           <DownloadIcon fill="#fff" />
           <span className={s.downloadText}> download resume</span>
           <span className={s.filename}>.pdf</span>
-        </Button>
+        </Button> */}
 
-        <div className={s.pdfWrapper} ref={pdfWrapper}>
+        {/* <div className={s.pdfWrapper} ref={pdfWrapper}>
           <Document
             loading={<LinerProgress />}
             file={{
@@ -72,7 +73,8 @@ const Resume = () => {
               pageNumber={1}
             />
           </Document>
-        </div>
+        </div> */}
+        <img src="/resume.png" alt="resume" style={{width: '80%'}} />
       </div>
     </BaseLayout>
   );

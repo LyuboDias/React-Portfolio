@@ -2,20 +2,22 @@ import s from './AboutTextCard.module.scss';
 import { ImPointRight } from 'react-icons/im';
 
 const AboutTextCard = () => {
+  const left = '<'
+  const right = '/>'
+
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr </span>
-        from <span className={s.purple}> Ternopil, Ukraine.</span>
+        Hello stranger, I am{' '}
+        <span className={s.purple}>Lyubomir Dias </span>
+        born and raised in <span className={s.purple}> Sofia, Bulgaria. 🇧🇬</span>
         <br />
-        Skilled MERN Stack and React Native Developer.
-        <br /> Bachelor in Computer Science from
+        I've been living and working in the UK since 2012.  
+        <br /> I very much enjoy sports(⚽ 🏀 🥊) , food 🌮 🍝 🥗, traveling 🗺️
         <br />
-        West Ukrainian National University, Ternopil.
+        and of course spending time on my PC (coding 🦆💻 and gaming 👾).
         <br />
         <br />
-        Apart from coding, some other activities that I love to do!
       </p>
 
       <ul>
@@ -23,7 +25,7 @@ const AboutTextCard = () => {
           <ImPointRight /> Playing Games
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Reading
+          <ImPointRight /> Playing Sports
         </li>
         <li className={s.aboutActivity}>
           <ImPointRight /> Travelling
@@ -37,7 +39,7 @@ const AboutTextCard = () => {
           marginTop: '1rem',
         }}
       >
-        "Strive to build things that make a difference!"{' '}
+        `{left} Developers turns coffee into code {right}`{' '}
       </p>
     </div>
   );

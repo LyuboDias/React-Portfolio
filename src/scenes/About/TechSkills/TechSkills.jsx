@@ -3,15 +3,15 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiPostgresql,
   DiGit,
   DiSass,
 } from 'react-icons/di';
 import {
   SiTypescript,
-  SiRedux,
-  SiSocketDotIo,
-  SiAmazonaws,
+  SiRuby,
+  SiStorybook,
+  SiHeroku,
 } from 'react-icons/si';
 
 const TechSkills = () => {
@@ -30,19 +30,19 @@ const TechSkills = () => {
         <DiReact />
       </li>
       <li className={s.techIcon}>
-        <DiMongodb />
+        <DiPostgresql />
       </li>
       <li className={s.techIcon}>
         <DiSass />
       </li>
       <li className={s.techIcon}>
-        <SiAmazonaws />
+        <SiHeroku />
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
+        <SiRuby />
       </li>
       <li className={s.techIcon}>
-        <SiSocketDotIo />
+        <SiStorybook />
       </li>
       <li className={s.techIcon}>
         <DiGit />

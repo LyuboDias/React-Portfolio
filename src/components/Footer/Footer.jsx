@@ -1,7 +1,7 @@
 import s from './Footer.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
+  // FaFacebookSquare,
   FaLinkedinIn,
   FaTelegramPlane,
 } from 'react-icons/fa';
@@ -14,18 +14,18 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h3>Designed and Developed by Snaichuk Volodymyr</h3>
+          <h3>Developed by Lyubomir Dias</h3>
         </div>
 
         <div className={s.copyright}>
-          <h3>Copyright © {year} SV.dev</h3>
+          <h3>Copyright © {year} L.Dias</h3>
         </div>
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/vsnaichuk"
+                href="https://github.com/LyuboDias"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -34,16 +34,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/Snaychuk"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaFacebookSquare />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://t.me/snaichuk_v"
+                href="https://t.me/lyubo_dias"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,7 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+                href="https://www.linkedin.com/in/lyubomir-dias/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -67,3 +58,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
