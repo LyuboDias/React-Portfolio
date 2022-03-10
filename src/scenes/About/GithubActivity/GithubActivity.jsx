@@ -5,12 +5,12 @@ const GithubActivity = () => {
   const colorTheme = {
     background: 'transparent',
     text: '#ffffff',
-    grade4: '#8400b8',
-    grade3: '#b22ff4',
-    grade2: '#b265f6',
-    grade1: '#c084f5',
-    grade0: '#ecd9fc',
-  };
+    grade4: '#e50035',
+    grade3: '#ff3262',
+    grade2: '#ff7f9d',
+    grade1: '#ffb2c4',
+    grade0: '#ffe5eb', 
+  }
   return (
     <div className={s.container}>
       <GitHubCalendar

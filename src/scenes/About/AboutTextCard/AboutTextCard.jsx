@@ -34,7 +34,7 @@ const AboutTextCard = () => {
 
       <p
         style={{
-          color: 'rgb(155 126 172)',
+          color: '#00afc4',
           textAlign: 'center',
           marginTop: '1rem',
         }}
