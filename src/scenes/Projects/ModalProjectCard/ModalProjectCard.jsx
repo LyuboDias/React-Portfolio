@@ -1,5 +1,5 @@
 import s from './ModalProjectCard.module.scss';
-import { BiLinkExternal } from 'react-icons/all';
+// import { BiLinkExternal } from 'react-icons/all';
 import Modal from '../../../components/Modal/Modal';
 import Button from '../../../components/UIElements/Button/Button';
 import { useParams } from 'react-router-dom';
@@ -48,7 +48,7 @@ const ModalProjectCard = () => {
             href={links.site}
             target="_blank"
           >
-            <BiLinkExternal /> &nbsp; Live Preview
+            Live Preview
           </Button>
 
           <Button
@@ -57,7 +57,7 @@ const ModalProjectCard = () => {
             href={links.repo}
             target="_blank"
           >
-            <BiLinkExternal /> &nbsp; Source Code
+            Source Code
           </Button>
         </div>
       </div>
