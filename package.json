@@ -3,8 +3,6 @@
     "node": "16.x",
     "npm": "7.x"
   },
-  "proxy": "http://localhost:3000",
-  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,7 +33,7 @@
     "workbox-strategies": "^5.1.4"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "serve -s build",
     "test": "react-scripts test",
