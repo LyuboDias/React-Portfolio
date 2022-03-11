@@ -1,34 +1,34 @@
 import { createContext, useEffect, useState } from 'react';
 
 export const ThemeContext = createContext({
-  dark: true,
+  light: true,
   toggle: () => {},
 });
 
 export const ThemeProvider = ({ children }) => {
-  const [dark, setDark] = useState(true);
+  const [light, setLight] = useState(true);
 
   const toggleTheme = () => {
-    localStorage.setItem('dark', JSON.stringify(!dark));
-    setDark(!dark);
+    localStorage.setItem('light', JSON.stringify(!light));
+    setLight(!light);
 
-    document.body.classList.toggle('dark', !dark);
-    document.body.classList.toggle('light', dark);
+    document.body.classList.toggle('light', !light);
+    document.body.classList.toggle('dark', light);
   };
 
   useEffect(() => {
-    const localeDark = JSON.parse(localStorage.getItem('dark'));
+    const localeLight = JSON.parse(localStorage.getItem('light'));
 
-    if (typeof localeDark !== 'boolean')
-      document.body.classList.add(dark ? 'dark' : 'light');
+    if (typeof localeLight !== 'boolean')
+      document.body.classList.add(light ? 'light' : 'dark');
     else {
-      setDark(localeDark);
-      document.body.classList.add(localeDark ? 'dark' : 'light');
+      setLight(localeLight);
+      document.body.classList.add(localeLight ? 'light' : 'dark');
     }
   }, []);
 
   return (
-    <ThemeContext.Provider value={{ dark, toggleTheme }}>
+    <ThemeContext.Provider value={{ light, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );

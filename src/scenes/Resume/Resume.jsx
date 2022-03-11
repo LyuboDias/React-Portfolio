@@ -17,7 +17,7 @@ const Resume = () => {
             <FilesIcon />
           </div>
         </div>
-        <img src="/resume.png" alt="resume" style={{width: '80%'}} />
+        <img src="/cv.jpg" alt="resume" style={{width: '80%'}} />
       </div>
     </BaseLayout>
   );
