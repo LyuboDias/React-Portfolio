@@ -8,8 +8,7 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hello stranger, I am{' '}
-        <span className={s.purple}>Lyubomir Dias </span>
+        I was{' '}
         born and raised in <span className={s.purple}> Sofia, Bulgaria. 🇧🇬</span>
         <br />
         I've been living and working in the UK since 2012.  

@@ -14,28 +14,34 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            FEW <span className={s.purple}> WORDS </span>{' '}
-            ABOUT MYSELF
+            WHY I CHOSE <span className={s.purple}> CODING ?</span>{' '}
           </h1>
 
           <div className={s.description}>
             <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
+              Since teenage years I have been spending a lot of time on my PC 
+              <br/>
+              (mainly gaming 👾👾👾) <strong className={s.purple}>so ... </strong>
             </p>
 
             <p>
-              My field of Interest's are building new
+              In 2020 I have decided to follow my big passion - working in <strong className={s.purple}>Tech</strong> industry
+            </p>
+
+            <p>
+              My fields of Interest are building new
               <i>
                 <b className={s.purple}>
                   {' '}
                   Web Technologies and Products
                 </b>
               </i>
+              <br/>
+              while coding and learning daily
             </p>
 
             <p>
-              As passionate Full Stack Software Developer 🚀 <br />I
+              As passionate Full Stack Software Developer 💻  <br />I
               have an experience of building{' '}
               <i>
                 <b className={s.purple}>Web</b>
