@@ -2,7 +2,6 @@ import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
   FaLinkedinIn,
   FaTelegramPlane,
 } from 'react-icons/fa';
