@@ -1,4 +1,4 @@
-import ReactParticles from 'react-particles-js';
+import ReactParticles from 'react-tsparticles';
 import {
   DARK_THEME_PARTICLES,
   LIGHT_THEME_PARTICLES,
