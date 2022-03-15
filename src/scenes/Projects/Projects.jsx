@@ -8,7 +8,7 @@ const Projects = () => {
     <BaseLayout>
       <div className={s.content}>
         <h1 className={s.title}>
-          Some of my <strong className={s.purple}>Work</strong>
+          Some of my <strong className={s.red}>Work</strong>
         </h1>
         <p className={s.subtitle}>
           Here are a few projects I've worked on

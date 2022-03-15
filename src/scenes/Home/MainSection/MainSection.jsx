@@ -1,6 +1,7 @@
 import s from './MainSection.module.scss';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import coder from '../../../assets/coder.gif'
 
 const MainSection = () => {
   return (
@@ -31,7 +32,7 @@ const MainSection = () => {
       <LazyLoadImage
         alt="home-img"
         effect="blur"
-        src='https://media2.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif?cid=790b7611a284ad98005d3ff5b16403612230cb2aa3a6fe97&rid=giphy.gif&ct=g'
+        src={coder}
         wrapperClassName={s.homeMainIcon}
       />
     </section>

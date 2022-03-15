@@ -13,40 +13,71 @@ import {
   SiStorybook,
   SiHeroku,
 } from 'react-icons/si';
+import Tooltip from "@material-ui/core/Tooltip";
+
+const techs = [
+  {
+    icon: <DiJavascript1 />,
+    title: 'JavaScript',
+  },
+  {
+    icon: <SiTypescript />,
+    title: 'TypeScript',
+  },
+  {
+    icon: <DiNodejs />,
+    title: 'NodeJS',
+  },
+  {
+    icon: <DiReact />,
+    title: 'ReactJS',
+  },
+  {
+    icon: <DiPostgresql />,
+    title: 'PostgreSQL',
+  },
+  {
+    icon: <DiSass />,
+    title: 'SasS',
+  },
+  {
+    icon: <SiHeroku />,
+    title: 'Heroku',
+  },
+  {
+    icon: <SiRuby />,
+    title: 'Ruby on Rails',
+  },
+  {
+    icon: <SiStorybook />,
+    title: 'Storybook',
+  },
+  {
+    icon: <DiGit />,
+    title: 'Git',
+  },
+]
 
 const TechSkills = () => {
   return (
     <ul className={s.container}>
-      <li className={s.techIcon}>
-        <DiJavascript1 />
-      </li>
-      <li className={s.techIcon}>
-        <SiTypescript />
-      </li>
-      <li className={s.techIcon}>
-        <DiNodejs />
-      </li>
-      <li className={s.techIcon}>
-        <DiReact />
-      </li>
-      <li className={s.techIcon}>
-        <DiPostgresql />
-      </li>
-      <li className={s.techIcon}>
-        <DiSass />
-      </li>
-      <li className={s.techIcon}>
-        <SiHeroku />
-      </li>
-      <li className={s.techIcon}>
-        <SiRuby />
-      </li>
-      <li className={s.techIcon}>
-        <SiStorybook />
-      </li>
-      <li className={s.techIcon}>
-        <DiGit />
-      </li>
+      {techs.map((tech, index) => {
+          return (
+            <Tooltip
+              title={tech.title}
+              placement="top"
+              key={index}
+            >
+              <li 
+                  className={s.techIcon} 
+                  data-toggle="tooltip" 
+                  title={tech.title}
+              >
+                  {tech.icon}
+              </li>
+            </Tooltip>
+          )
+      })}
     </ul>
   );
 };

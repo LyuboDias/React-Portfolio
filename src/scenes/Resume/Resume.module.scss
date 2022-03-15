@@ -5,14 +5,15 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  // width: '70%';
 }
 
 .title {
   padding-top: 10px;
   color: var(--txt);
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 200;
 }
 
@@ -50,7 +51,7 @@
 
 @media (max-width: 600px) {
   .header {
-    padding-bottom: 10px;
+    padding-bottom: 60px;
   }
   .title {
     font-size: 3rem;

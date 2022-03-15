@@ -2,6 +2,7 @@ import s from './Resume.module.scss';
 import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
 // import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
+import cv from '../../assets/cv.jpg'
 
 const Resume = () => {
 
@@ -17,7 +18,7 @@ const Resume = () => {
             <FilesIcon />
           </div>
         </div>
-        <img src="/cv.jpg" alt="resume" style={{width: '80%'}} />
+        <img src={cv} alt="resume" style={{width: '80%', borderRadius: '16px'}} />
       </div>
     </BaseLayout>
   );

@@ -9,7 +9,7 @@ const AboutTextCard = () => {
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
         I was{' '}
-        born and raised in <span className={s.purple}> Sofia, Bulgaria. 🇧🇬</span>
+        born and raised in <span className={s.red}> Sofia, Bulgaria. 🇧🇬</span>
         <br />
         I've been living and working in the UK since 2012.  
         <br /> I very much enjoy sports(⚽ 🏀 🥊) , food 🌮 🍝 🥗, traveling 🗺️
@@ -38,7 +38,7 @@ const AboutTextCard = () => {
           marginTop: '1rem',
         }}
       >
-        `{left} Developers turns coffee into code {right}`{' '}
+        {left} Developers turn coffee into code {right}{' '}
       </p>
     </div>
   );

@@ -11,23 +11,23 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-              WHO IS <b className={s.purple}>LYUBOMIR DIAS ?</b>
+              WHO IS <b className={s.red}>LYUBOMIR DIAS ?</b>
             </h1>
             <AboutTextCard />
           </div>
 
           <div className={s.aboutImg}>
-            <img src='https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b761187182339e59036f38d74d0d7730b8f32b2ef1d50&rid=giphy.gif&ct=g' alt="about" style={{borderRadius: '16px'}} />
+            <img src='/man-coding.webp' alt="about" style={{borderRadius: '16px'}} />
           </div>
         </div>
 
         <h2 className={s.skills}>
-          Some Techs <b className={s.purple}>I use</b>
+          Some Techs <b className={s.red}>I use</b>
         </h2>
         <TechSkills />
 
         <h2 className={s.githubActivity}>
-          <b className={s.purple}>GitHub</b> Contributions
+          <b className={s.red}>GitHub</b> Contributions
         </h2>
         <GithubActivity />
       </div>

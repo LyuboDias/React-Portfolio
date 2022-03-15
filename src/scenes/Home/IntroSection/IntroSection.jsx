@@ -14,24 +14,24 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            WHY I CHOSE <span className={s.purple}> CODING ?</span>{' '}
+            WHY I CHOSE <span className={s.red}> CODING ?</span>{' '}
           </h1>
 
           <div className={s.description}>
             <p>
               Since teenage years I have been spending a lot of time on my PC 
               <br/>
-              (mainly gaming 👾👾👾) <strong className={s.purple}>so ... </strong>
+              (mainly gaming 👾👾👾) <strong className={s.red}>so ... </strong>
             </p>
 
             <p>
-              In 2020 I have decided to follow my big passion - working in <strong className={s.purple}>Tech</strong> industry
+              In 2020 I have decided to follow my big passion - working in <strong className={s.red}>Tech</strong> industry
             </p>
 
             <p>
               My fields of Interest are building new
               <i>
-                <b className={s.purple}>
+                <b className={s.red}>
                   {' '}
                   Web Technologies and Products
                 </b>
@@ -44,12 +44,12 @@ const IntroSection = () => {
               As passionate Full Stack Software Developer 💻  <br />I
               have an experience of building{' '}
               <i>
-                <b className={s.purple}>Web</b>
+                <b className={s.red}>Web</b>
               </i>{' '}
               applications with
               <br />
               <i>
-                <b className={s.purple}>
+                <b className={s.red}>
                   JavaScript, ReactJs, Ruby on Rails, PostgreSQL
                 </b>
               </i>{' '}
@@ -66,7 +66,7 @@ const IntroSection = () => {
       <div className={s.introSocial}>
         <h1>MY SOCIAL LINKS</h1>
         <p>
-          <span className={s.purple}>Connect </span>with me
+          <span className={s.red}>Connect </span>with me
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
