@@ -14,108 +14,108 @@
 @import "theme";
 
 html, body {
-  font-size: 16px;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  height: 100vh;
-  width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
-  html {
-    font-size: 12px;
-  }
+    html {
+        font-size: 12px;
+    }
 }
 
 *,
 *::before,
 *::after{
-  box-sizing:border-box;
+    box-sizing:border-box;
 }
 a {
-  text-decoration:none;
-  color:inherit;
-  cursor:pointer;
+    text-decoration:none;
+    color:inherit;
+    cursor:pointer;
 }
 button {
-  background-color:transparent;
-  color:inherit;
-  border-width:0;
-  padding:0;
-  cursor:pointer;
+    background-color:transparent;
+    color:inherit;
+    border-width:0;
+    padding:0;
+    cursor:pointer;
 }
 figure {
-  margin:0;
+    margin:0;
 }
 input::-moz-focus-inner {
-  border:0; padding:0; margin:0;
+    border:0; padding:0; margin:0;
 }
 ul, ol, dd{
-  margin:0; padding:0; list-style:none;
+    margin:0; padding:0; list-style:none;
 }
 h1, h2, h3, h4, h5, h6{
-  margin:0; font-size:inherit; font-weight:inherit;
+    margin:0; font-size:inherit; font-weight:inherit;
 }
 p{
-  margin:0;
+    margin:0;
 }
 cite {
-  font-style:normal;
+    font-style:normal;
 }
 fieldset{
-  border-width:0; padding:0; margin:0;
+    border-width:0; padding:0; margin:0;
 }
 
 .overflow-hidden {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 #tsparticles {
-  position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #7f001d;
+    background: #7f001d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff4c75;
-  border-radius: 12px;
+    background: #ff4c75;
+    border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(235, 130, 130, 0.911);
-  border-radius: 12px;
+    background: rgba(235, 130, 130, 0.911);
+    border-radius: 12px;
 }
 
 .lazy-load-image-background.blur {
-  filter: blur(15px);
+    filter: blur(15px);
 }
 
 .lazy-load-image-background.blur.lazy-load-image-loaded {
-  filter: blur(0);
-  transition: filter .3s;
+    filter: blur(0);
+    transition: filter .3s;
 }
 
 .lazy-load-image-background.blur > img {
-  opacity: 0;
+    opacity: 0;
 }
 
 .lazy-load-image-background.blur.lazy-load-image-loaded > img {
-  opacity: 1;
-  transition: opacity .3s;
+    opacity: 1;
+    transition: opacity .3s;
 }
 

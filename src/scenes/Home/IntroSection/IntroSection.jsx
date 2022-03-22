@@ -19,41 +19,15 @@ const IntroSection = () => {
 
           <div className={s.description}>
             <p>
-              Since teenage years I have been spending a lot of time on my PC 
-              <br/>
-              (mainly gaming 👾👾👾) <strong className={s.red}>so ... </strong>
+              I've spent a lot of time on my PC, <strong className={s.red}>primarily gaming</strong>, since I was a teenager. 
             </p>
 
             <p>
-              In 2020 I have decided to follow my big passion - working in <strong className={s.red}>Tech</strong> industry
+              In the year 2020, I've chosen to pursue my lifelong dream <br/> of working in the technology business. <br/> Building new <b className={s.red}> Web Technologies and Products</b> while coding <br/> and learning daily are two of my main interests.
             </p>
 
             <p>
-              My fields of Interest are building new
-              <i>
-                <b className={s.red}>
-                  {' '}
-                  Web Technologies and Products
-                </b>
-              </i>
-              <br/>
-              while coding and learning daily
-            </p>
-
-            <p>
-              As passionate Full Stack Software Developer 💻  <br />I
-              have an experience of building{' '}
-              <i>
-                <b className={s.red}>Web</b>
-              </i>{' '}
-              applications with
-              <br />
-              <i>
-                <b className={s.red}>
-                  JavaScript, ReactJs, Ruby on Rails, PostgreSQL
-                </b>
-              </i>{' '}
-              and some other cool libraries
+              As an enthusiastic Full Stack Software Developer,<br/> I've built Web apps using <b className={s.red}>JavaScript, ReactJs, Ruby on Rails, PostgreSQL</b>, <br/> and a few more exciting technologies.
             </p>
           </div>
         </div>

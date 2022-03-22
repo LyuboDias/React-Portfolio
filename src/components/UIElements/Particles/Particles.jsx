@@ -1,38 +1,38 @@
 import ReactParticles from 'react-tsparticles';
 import {
-  DARK_THEME_PARTICLES,
-  LIGHT_THEME_PARTICLES,
+    DARK_THEME_PARTICLES,
+    LIGHT_THEME_PARTICLES,
 } from './particleType';
 import { useThemeContext } from '../../../hooks/themeHook/themeHook';
 
 const Particles = () => {
-  const { dark } = useThemeContext();
+    const { dark } = useThemeContext();
 
-  const particles = dark
-    ? DARK_THEME_PARTICLES
-    : LIGHT_THEME_PARTICLES;
+    const particles = dark
+        ? DARK_THEME_PARTICLES
+        : LIGHT_THEME_PARTICLES;
 
-  return (
-    <ReactParticles
-      params={{
-        particles: particles,
-        interactivity: {
-          events: {
-            onclick: {
-              enable: true,
-              mode: 'push',
+    return (
+        <ReactParticles
+        params={{
+            particles: particles,
+            interactivity: {
+            events: {
+                onclick: {
+                enable: true,
+                mode: 'push',
+                },
             },
-          },
-          modes: {
-            push: {
-              particles_nb: 1,
+            modes: {
+                push: {
+                particles_nb: 1,
+                },
             },
-          },
-        },
-        retina_detect: true,
-      }}
-    />
-  );
+            },
+            retina_detect: true,
+        }}
+        />
+    );
 };
 
 export default Particles;

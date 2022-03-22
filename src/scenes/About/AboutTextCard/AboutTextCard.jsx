@@ -8,26 +8,27 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        I was{' '}
-        born and raised in <span className={s.red}> Sofia, Bulgaria. 🇧🇬</span>
+        I am originally from <span className={s.red}> Sofia, Bulgaria. 🇧🇬</span>
         <br />
-        I've been living and working in the UK since 2012.  
-        <br /> I very much enjoy sports(⚽ 🏀 🥊) , food 🌮 🍝 🥗, traveling 🗺️
-        <br />
-        and of course spending time on my PC (coding 🦆💻 and gaming 👾).
-        <br />
-        <br />
+        Since 2012, I've been based in London, United Kingdom.  
+        <br/>
+        In 2020, I graduated from 'Le Wagon' coding bootcamp <br/> as a full-stack developer. Since then, I have been working on a few personal projects.
       </p>
+
+      <p>I very much enjoy:</p>
 
       <ul>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Playing Games
+          <ImPointRight /> Traveling 🗺️
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Playing Sports
+          <ImPointRight /> Sports ⚽ 🏀 🥊
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Travelling
+          <ImPointRight /> Food 🌮 🍝 🥗
+        </li>
+        <li className={s.aboutActivity}>
+          <ImPointRight /> and, of course, spending time on my PC (coding 🦆💻 and gaming 👾)
         </li>
       </ul>
 

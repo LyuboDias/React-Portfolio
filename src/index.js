@@ -5,11 +5,11 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import { ThemeProvider } from './hooks/themeHook/themeContext'
 
 const Root = () => {
-  return (
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  )
+    return (
+        <ThemeProvider>
+        <App />
+        </ThemeProvider>
+    )
 }
 
 ReactDOM.render(<Root />, document.getElementById('root'))

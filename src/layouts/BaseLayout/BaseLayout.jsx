@@ -5,19 +5,19 @@ import Footer from '../../components/Footer/Footer';
 import MainNavigation from '../../components/Navigation/MainNavigation/MainNavigation';
 
 const BaseLayout = ({ children }) => {
-  return (
-    <div className={s.layout}>
-      <Particles />
+    return (
+        <div className={s.layout}>
+        <Particles />
 
-      <Header>
-        <MainNavigation />
-      </Header>
+        <Header>
+            <MainNavigation />
+        </Header>
 
-      <div className={s.container}>{children}</div>
+        <div className={s.container}>{children}</div>
 
-      <Footer />
-    </div>
-  );
+        <Footer />
+        </div>
+    );
 };
 
 export default BaseLayout;
