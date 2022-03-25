@@ -17,7 +17,7 @@ const About = () => {
           </div>
 
           <div className={s.aboutImg}>
-            <img src='/man-coding.webp' alt="about" style={{borderRadius: '16px'}} />
+            <img src='https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b76111703e44ceaa6f82797e5ecc2ef6af067e6dc5b1b&rid=giphy.gif&ct=g' alt="about" style={{borderRadius: '16px'}} />
           </div>
         </div>
 
